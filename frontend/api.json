@@ -1,0 +1,24 @@
+{
+    "host": "localhost",
+    "port": 8000,
+    "login": {
+        "method": "post",
+        "body": [
+            "email",
+            "password"
+        ],
+        "path": "/login/",
+        "secured": false
+    },
+    "signup": {
+        "method": "post",
+        "body": [
+            "email",
+            "dial_code",
+            "phone",
+            "password"
+        ],
+        "path": "/signup/",
+        "secured": false
+    }
+}
