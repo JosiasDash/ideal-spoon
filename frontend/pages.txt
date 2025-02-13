@@ -1,0 +1,26 @@
+Public
+/: Home page
+/signin: Login
+/signup: Register
+
+User
+/user: User dashboard: 
+/user/projects: View all projects and filter (self projects)
+/user/projects/id: View projects details
+/user/projects/id/edit: Edit projects details (description, size, tickets)
+/user/contributions: View all projects where the user contribute
+/user/contributions/id:
+/user/contributions/id/edit:
+/user/profile:
+/user/profile/details
+/user/profile/edit
+/user/chats: List of all team chats
+/user/chats/id: Specific chat
+
+Admin
+/admin: Admin dashboard
+/admin/projects: 
+/admin/projects/id:
+/admin/users:
+/admin/users/id:
+
