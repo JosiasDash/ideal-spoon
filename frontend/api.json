@@ -8,7 +8,23 @@
             "password"
         ],
         "path": "/login/",
-        "secured": false
+        "secured": false,
+        "response": [
+            {
+                "code": 200,
+                "message": "Successfully authenticated",
+                "access_token": "token",
+                "refresh_token": "token"
+            },
+            {
+                "code": 404,
+                "message": "User not found"
+            },
+            {
+                "code": 400,
+                "message": "Invalid credentials"
+            }
+        ]
     },
     "signup": {
         "method": "post",
@@ -19,6 +35,22 @@
             "password"
         ],
         "path": "/signup/",
-        "secured": false
+        "secured": false,
+        "response": [
+            {
+                "code": 200,
+                "message": "Successfully authenticated",
+                "access_token": "token",
+                "refresh_token": "token"
+            },
+            {
+                "code": 404,
+                "message": "User not found"
+            },
+            {
+                "code": 400,
+                "message": "Invalid credentials"
+            }
+        ]
     }
 }
