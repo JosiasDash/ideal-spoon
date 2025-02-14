@@ -1,0 +1,161 @@
+/* Global container for the signup page */
+.signup-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #f8fafc, #e2e8f0);
+  }
+  
+  /* Container for the signup form */
+  .signup-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+  }
+  
+  .signup-card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Title and subtitle styles */
+  .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a202c;
+  }
+  
+  .subtitle {
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  
+  /* Form container and field styling */
+  .form {
+    margin-top: 1rem;
+  }
+  
+  .form-fields {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+  
+  .label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    background-color: white;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
+  .phone-group {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .phone-select {
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    width: 90px;
+    background-color: white;
+  }
+  
+  .error-message {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    color: #ef4444;
+  }
+  
+  /* Submit button and terms text styling */
+  .submit-section {
+    margin-top: 1rem;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0b1c2e;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #162939;
+  }
+  
+  .submit-button:disabled {
+    opacity: 0.5;
+  }
+  
+  .terms-text {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #6b7280;
+  }
+  
+  .terms-text .link {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  .terms-text .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Divider line between or section */
+  .divider {
+    position: relative;
+    margin-top: 1rem;
+  }
+  
+  .divider-line {
+    width: 100%;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .or-text {
+    position: absolute;
+    top: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 0.5rem;
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  
+  /* Link to login page */
+  .login-link {
+    color: #f97316;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    color: #ea580c;
+  }
+  

@@ -1,0 +1,143 @@
+.login-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #f8fafc, #e5e7eb);
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-header img {
+    margin-bottom: 1rem;
+  }
+  
+  .login-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .login-header p {
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-form label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #3b82f6;
+    outline: none;
+  }
+  
+  .error-message {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: #f87171;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .remember-me input {
+    margin-right: 0.5rem;
+  }
+  
+  .forgot-password {
+    font-size: 0.875rem;
+  }
+  
+  .forgot-password-link {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #0b1c2e;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #162939;
+  }
+  
+  .submit-button:disabled {
+    opacity: 0.5;
+  }
+  
+  .divider {
+    position: relative;
+    margin: 2rem 0;
+  }
+  
+  .divider-line {
+    width: 100%;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .divider-text {
+    position: absolute;
+    top: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 1rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .signup-link {
+    text-align: center;
+  }
+  
+  .signup-link-text {
+    font-size: 0.875rem;
+    color: #f97316;
+  }
+  
+  .signup-link-text:hover {
+    color: #ea580c;
+  }
+  
