@@ -1,10 +1,8 @@
-/* Global container for the signup page */
 .signup-container {
     min-height: 100vh;
     background: linear-gradient(to bottom right, #f8fafc, #e2e8f0);
   }
   
-  /* Container for the signup form */
   .signup-form-container {
     display: flex;
     justify-content: center;
@@ -22,7 +20,6 @@
     max-width: 400px;
   }
   
-  /* Title and subtitle styles */
   .title {
     font-size: 1.5rem;
     font-weight: 700;
@@ -34,7 +31,6 @@
     font-size: 0.875rem;
   }
   
-  /* Form container and field styling */
   .form {
     margin-top: 1rem;
   }
@@ -89,7 +85,6 @@
     color: #ef4444;
   }
   
-  /* Submit button and terms text styling */
   .submit-section {
     margin-top: 1rem;
   }
@@ -127,7 +122,6 @@
     text-decoration: underline;
   }
   
-  /* Divider line between or section */
   .divider {
     position: relative;
     margin-top: 1rem;
@@ -149,7 +143,6 @@
     font-size: 0.875rem;
   }
   
-  /* Link to login page */
   .login-link {
     color: #f97316;
     text-decoration: none;

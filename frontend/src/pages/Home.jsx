@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 // import { Navbar } from '../components/Navbar';
-import './Home.css'; // Importation du CSS
+import '../styles/Home.css';
 
 export function Home() {
   return (

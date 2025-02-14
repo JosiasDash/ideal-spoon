@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import Logo from '../assets/logo.png';
 
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

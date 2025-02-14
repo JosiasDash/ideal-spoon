@@ -55,13 +55,14 @@ export function Signup() {
                 <label htmlFor="phone" className="label">Phone number</label>
                 <div className="phone-group">
                   <select className="phone-select" defaultValue="+33">
-                    <option value="+33">🇫🇷 +33</option>
+                    {/* <option value="+33">🇫🇷 +33</option> */}
+                    <option value="+33">🇫🇷 +229</option>
                   </select>
                   <input
                     id="phone"
                     {...register('phoneNumber')}
                     type="tel"
-                    placeholder="6 12 34 56 78"
+                    placeholder="01 96 66 47 34"
                     className="input"
                   />
                   {errors.phoneNumber && <p className="error-message">{errors.phoneNumber.message}</p>}
