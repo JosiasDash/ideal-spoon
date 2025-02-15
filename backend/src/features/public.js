@@ -1,12 +1,15 @@
 const express = require("express");
 const app = express();
-const testLogin = require("../utils/test");
+const {testLogin, testSignup} = require("../utils/test");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 
 app.post("/signup", function(req, res) {
-
+    const response =  testSignup(req.body);
+    res.status(response.code).json({
+        message: response.message
+    })
 })
 
 app.post("/login", function(req, res) {

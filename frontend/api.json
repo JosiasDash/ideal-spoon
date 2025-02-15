@@ -1,11 +1,39 @@
 {
     "host": "localhost",
     "port": 8000,
-    "test": {
-        "email": "lucas.morel@test.com",
-        "username": "Lucas",
-        "password": "Lucas-morel@2025"
-    },
+    "test": [
+        {
+            "id": 1,
+            "email": "lucas.morel@test.com",
+            "username": "Lucas",
+            "password": "Lucas-morel@2025",
+            "global_rate": 2.1
+        },
+        {
+            "id": 2,
+            "email": "julien.lefevre@test.com",
+            "username": "Julien",
+            "password": "Lucas-morel@2025",
+            "global_rate": 3.0
+        },
+        {
+            "id": 3,
+            "email": "emma.dubois@test.com",
+            "username": "Emma",
+            "password": "Lucas-morel@2025",
+            "global_rate": 1.2
+        }
+    ],
+    "deps": [
+        "axios",
+        "bootstrap",
+        "react-bootstrap",
+        "react-router-dom",
+        "react",
+        "react-dom",
+        "react-icons",
+        "dotenv"
+    ],
     "login": {
         "method": "post",
         "body": [
