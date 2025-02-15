@@ -1,7 +1,7 @@
 import feature from "./config";
 
 /*
-** This urls must follow the format: {path: "", component:}
+** This urls must follow the format: {path: "", component:, exact: true}
 */ 
 let urls = [
 
