@@ -1,6 +1,11 @@
 {
     "host": "localhost",
     "port": 8000,
+    "test": {
+        "email": "lucas.morel@test.com",
+        "username": "Lucas",
+        "password": "Lucas-morel@2025"
+    },
     "login": {
         "method": "post",
         "body": [
@@ -30,6 +35,7 @@
         "method": "post",
         "body": [
             "email",
+            "username",
             "dial_code",
             "phone",
             "password"
